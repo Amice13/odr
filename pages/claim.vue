@@ -16,7 +16,7 @@
           <v-tabs class="pseudoheader" v-model="tab">
             <v-tabs-slider></v-tabs-slider>
             <v-tab href="#tab-1">
-              Дані запиту
+              Дані позову
             </v-tab>
           </v-tabs>
           <v-tabs-items v-model="tab" id="input">

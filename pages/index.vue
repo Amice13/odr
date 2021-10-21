@@ -118,6 +118,7 @@ export default {
     DataCard
   },
   async mounted () {
+    if (this.help) this.currentHelp = true
     this.refresh()
   },
   data: () => {
@@ -135,6 +136,8 @@ export default {
     }
   },
   computed: {
+    help: store('help'),
+    currentHelp: store('currentHelp'),
     name: store('name'),
     requests: function () {
       return this.data.filter(el => el.status === 'Надіслано запит')

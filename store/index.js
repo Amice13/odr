@@ -5,7 +5,9 @@ export const state = () => ({
   phone: '',
   address: '',
   rnokpp: '',
-  cache: {}
+  cache: {},
+  help: true,
+  currentHelp: false
 })
 
 export const getters = {
