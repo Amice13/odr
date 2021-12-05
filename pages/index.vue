@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row class="page-titles">
-      <v-col cols="12" class="mb-0 mt-0 pt-0 pb-0 ml-3 blue-grey--text text--lighten-2">
+      <v-col cols="12" class="mb-0 mt-0 pt-0 pb-0 ml-0 blue-grey--text text--lighten-2">
         <div class="text-themecolor mb-0 mt-0 text-h5 blue--text">Ваші запити на доступ до публічних даних</div>
         <v-breadcrumbs class="custom-breadcrumbs pb-0" :items="breadcrumbs" color="blue">
           <template v-slot:divider>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row class="page-titles">
-      <v-col cols="12" class="mb-0 mt-0 pt-0 pb-0 ml-3 blue-grey--text text--lighten-2">
+      <v-col cols="12" class="mb-0 mt-0 pt-0 pb-0 ml-0 blue-grey--text text--lighten-2">
         <div class="text-themecolor mb-0 mt-0 text-h5 blue--text">{{ editmode ? 'Редагувати' : 'Створити' }} запит на доступ до публічної інформації</div>
         <v-breadcrumbs class="custom-breadcrumbs pb-0" :items="breadcrumbs" color="blue">
           <template v-slot:divider>
@@ -376,53 +376,6 @@ export default {
 </script>
 
 <style>
-.page-titles {
-  padding-bottom: 20px;
-}
-
-.page-titles {
-  background: #fff;
-  margin: -15px -30px 0px;
-  padding: 15px;
-  box-shadow: 1px 0 5px rgb(0 0 0 / 10%);
-}
-
-.custom-breadcrumbs {
-  margin: -15px 0px 0px -22px !important;
-}
-
-.v-breadcrumbs__divider {
-  padding: 0px 5px !important;
-}
-
-.pseudoheader {
-  border-bottom: 1px solid #dee2e6;
-  font-weight: 300;
-}
-
-.pseudoheader .v-tabs-slider-wrapper {
-  height: 1px;
-}
-
-.pseudoheader .v-tab--active {
-  background-color: #eef5f9;
-  border-color: #dee2e6 #dee2e6 #eef5f9;
-}
-
-.strong {
-  font-weight: bold;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.placeholder {
-  background: #FFF59D;
-  padding: 2px 5px;
-  border-radius: 2px;
-}
-
 .request {
   text-align: justify;
 }
@@ -452,8 +405,7 @@ export default {
   text-align: center;
 }
 
-.request ol {
+.request ol, .request ul {
   margin: 2rem 0rem 2rem 2rem;
 }
-
 </style>

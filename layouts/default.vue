@@ -24,13 +24,21 @@
             <v-list-item-title class="blue-grey--text text--darken-1" v-text="'Про програму'" />
           </v-list-item-content>
         </v-list-item>
+        <v-list-item href="https://github.com/Amice13/odr" target="_blank">
+          <v-list-item-action>
+            <v-icon class="blue-grey--text text--darken-1">mdi-open-source-initiative</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title class="blue-grey--text text--darken-1" v-text="'Відкритий код'" />
+          </v-list-item-content>
+        </v-list-item>
 
       </v-list>
     </v-navigation-drawer>
     <v-app-bar color="blue" dark :clipped-left="clipped" fixed app>
       <v-toolbar-title v-text="title" style="min-width: 230px;" />
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-spacer />
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
     </v-app-bar>
     <v-main style="background: #eef5f9;">
       <v-container fluid>
@@ -58,6 +66,7 @@
           <p>Пам'ятайте, що звернення до суду потребує оплати судового збору в розмірі орієнтовно 900-1000 грн за одну позовну вимогу. До судового <strong>позову</strong> обов’язково потрібно додати оригінал квитанції про оплату збору (реквізити містяться на сайтах адміністративних судів, до яких плануєте звертатись), а також копії всіх додатків.</p>
           <p>Позовна заява, копії додатків мають бути у 2 примірника. Всі копії (всі сторінки) завірені наступним написом «Дата, підпис, ініціали, «Згідно з оригіналом». </p>
           <p>Успіхів вам в боротьбі за відкриті дані! Пишіть історії успіху і поразок з хештегом <a href="https://www.facebook.com/hashtag/openuphelper" target="_blank">#openuphelper</a>, щоб ми могли ними теж ділитись.</p>
+          <p>Ця програма є додатком з відкритим кодом та розповсюджується за MIT ліцензією. Ви можете <a href="https://github.com/Amice13/odr" target="_blank">завантажити цей код</a> та внести свої пропозиції</p>
           <v-checkbox style="text-align: right;" v-model="help" label="Показувати на старті"></v-checkbox>
         </v-card-text>
         <v-divider></v-divider>
