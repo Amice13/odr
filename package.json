@@ -11,7 +11,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.21.1",
-    "docxtemplater": "^3.28.6",
+    "docxtemplater": "^3.29.1",
     "file-saver": "^2.0.5",
     "mammoth": "^1.4.19",
     "nedb": "^1.8.0",
