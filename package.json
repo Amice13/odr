@@ -13,7 +13,7 @@
     "core-js": "^3.21.1",
     "docxtemplater": "^3.28.6",
     "file-saver": "^2.0.5",
-    "mammoth": "^1.4.19",
+    "mammoth": "^1.5.1",
     "nedb": "^1.8.0",
     "nuxt": "^2.15.7",
     "pizzip": "^3.0.6",
