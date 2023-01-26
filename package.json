@@ -15,7 +15,7 @@
     "file-saver": "^2.0.5",
     "mammoth": "^1.4.19",
     "nedb": "^1.8.0",
-    "nuxt": "^2.15.7",
+    "nuxt": "^3.1.1",
     "pizzip": "^3.0.6",
     "vuetify": "^2.6.2",
     "vuex-persist": "^3.1.3"
